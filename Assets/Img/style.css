@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: gray;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.footer{
+    background-color: gray;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+
+}
+
+.logo{
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    margin: 20px;
+    text-align: center;
+   
+}
+ul{
+    list-style: none;
+    margin-top: 27px;
+    font-size: 20px;
+}
+li{
+    display: inline;
+    padding: 20px;
+}
+
+.Section1{
+    padding: 47px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Section2{
+    padding: 47px;
+    clear: both;
+    display: flex;
+    flex-direction:row;
+}
+
+.g1{
+    width: 620px;
+    height: 450px;
+    background-color: green;
+    display: flex;
+}
+
+.g2{
+    width: 620px;
+    height: 450px;
+    display: flex;
+    background-color: green;
+    margin-left: 40px;
+}
+
+.f1{
+    
+    width:650px;
+    height: 450px;  
+    margin-left: 40px
+}
+.left{
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+}
+
+.f2{
+    width:650px;
+    height: 450px;
+    margin-right: 0px;
+}
+
+.blue{
+    width: 300px;
+    height: 205px;
+    background-color: blue;
+    
+}
+
+.red{
+    width: 300px;
+    height: 205px;
+    background-color: red;
+    margin-left: 40px;
+    
+}
+
+.yellow{
+    width: 300px;
+    height: 205px;
+    background-color: yellow;
+    margin-top: 40px;
+    
+}
+.purple{
+    width: 300px;
+    height: 205px;
+    background-color: purple;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.main{
+    border: 1px solid skyblue;
+    overflow: hidden;
+    max-width: 1410px;
+    margin: auto;
+}
+
+.boxes{
+    margin-left: 70px;
+    display: flex;
+}
+
+.b1{
+    width: 100px;
+    height: 60px;
+    background-color: orange;
+    margin: 5px 10px 5px 10px ;
+    display: flex;
+    flex-direction: row;
+}
+
+.b2{
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    margin: 5px 10px 5px 10px ;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.b3{
+    width: 30px;
+    height: 60px;
+    background-color: orange;
+    margin: 5px 10px 5px 10px ;
+    font-size: 11px;
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px ;
+    display: flex;
+}
+.icons{
+    margin: 10px 170px 10px ;
+    display: flex;
+    flex-direction: row;
+}
